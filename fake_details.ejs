@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Detail</title>
+    <script src="https://kit.fontawesome.com/95c13bdaf0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="fake_cont">
+        <div class="detail_cont">
+            <div class="upper_cont">
+                <i class="fa-solid fa-check size"></i>
+                <h2>Transaction Successful</h2>
+                <h5>Money has been sent</h5>
+            </div>
+            <div class="date_time">
+                <span id="date">11</span>
+                <span id="month">August</span>
+                <span id="year">2024</span>
+
+                <span id="hour">hour:</span>
+                <span id="minute">minute</span>
+                <p class="para">ID# 03255683728</p>
+            </div>
+            <div class="funding">
+                <h4>Funding Source</h4>
+                <img src="/images/logo.jpg" alt="logo" id="logo">
+                <h4 id="easy">Easypaisa Mobile Account</h4>
+            </div>
+            <div class="sent_to">
+                <h5 class="title">Sent to</h5>
+                    <p class="para"><%=details[0].to_name%></p>
+                    <p class="para"><%=details[0].to_number%></p>
+            </div>
+            <div class="account">
+                <h5 class="title">Account Details</h5>
+                    <p class="para"><%=details[0].to_name%></p>  
+            </div>
+            <div class="sent_by">
+                <h5 class="title">Sent by</h5>
+                    <p class="para"><%=details[0].by_name%></p>
+                    <p class="para"><%=details[0].by_number%></p> 
+            </div>
+            <div class="balance">
+                <h5 class="title">Amount</h5>
+                <p><%=details[0].amount%>.00</p>
+                <p class="para">Fee / Charge</p>
+                <p class="para">No Charge</p>
+                <h6 class="title">Total Amount</h6>
+                <h5 class="title color">RS.<%=details[0].amount%>.00</h5>
+            </div>      
+        </div> 
+    </div>
+    <script src="/app.js"></script>
+</body>
+</html>

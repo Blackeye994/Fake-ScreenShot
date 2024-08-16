@@ -1,0 +1,156 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    background-color: rgb(108, 44, 168);
+}
+
+.input_cont{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(120, 30, 30);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.input_text{
+    height: 30px;
+    width: 30%;
+    text-align: center;
+   margin-bottom: 10px;
+}
+
+#title{
+    position: relative;
+    top: -15%;
+    color: white;
+}
+
+#make{
+    height: 40px;
+    width: 7%;
+    border: 1.5px solid yellow;
+    border-radius: 10px;
+    font-size: 1.5em;
+    font-style: bold;
+}
+
+.fake_cont{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(93, 73, 112);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+.detail_cont{
+    width: 25%;
+    height: 95vh;
+    background-color: rgb(255,255,255);
+}
+
+.upper_cont{
+    height: 25vh;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.size{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(37, 238, 10);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    border-radius: 50%;
+}
+
+h2{
+    color: green;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.upper_cont h5{
+    text-align: center;
+    color: rgba(0,0,0,0.7);
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.date_time{
+    padding-top: 7px;
+    margin-left: 25px;
+}
+
+#hour{
+    margin-left: 10px;
+}
+
+.para{
+    margin-top: 0px;
+    font-size: 14px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.funding{
+    margin-left: 25px;
+   
+}
+#logo{
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+    border-radius: 50%;
+}
+#easy{
+    position: relative;
+    top: -5px;
+    color: rgba(0,0,0,0.7);
+    display: inline;
+}
+.funding h4{
+    margin-top: 13px;
+    margin-bottom: 5px;
+}
+
+.sent_to, .sent_by, .account, .balance{
+    margin-left: 25px;
+    color: black;
+    
+}
+.sent_to, .sent_by, .account,.balance h5{
+    font-size: 1.05em;
+}
+.title{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+h6{
+    font-size: 13px;
+    color: green;
+}
+.balance p{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.balance h5{
+    font-size: 15px;
+}
+.color{
+    color: rgba(0,0,0,0.8);
+}
